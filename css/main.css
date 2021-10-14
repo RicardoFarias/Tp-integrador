@@ -1,0 +1,28 @@
+
+.conoceOradores{
+    padding: 30px 140px;
+}
+
+.conoceOradores p {
+    text-align: center  ;
+}
+
+.conoceOradores .card {
+    margin: 20px;
+}
+
+.conviertete{
+    padding: 30px 140px;
+}
+.conviertete p{
+    text-align: center  ;
+}
+
+.card-img-overlay{
+    text-align: right;
+    margin: 350px 30px 190px 90px;
+}
+footer nav{
+    text-align: center;
+    justify-content: space-between;
+}
