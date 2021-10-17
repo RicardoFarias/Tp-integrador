@@ -1,4 +1,11 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
 .conoceOradores{
     padding: 30px 140px;
 }
@@ -12,7 +19,9 @@
 }
 
 .conviertete{
-    padding: 30px 140px;
+    padding: 30px 30px;
+    text-align: center;
+    justify-content: center;
 }
 .conviertete p{
     text-align: center  ;
@@ -22,7 +31,20 @@
     text-align: right;
     margin: 350px 30px 190px 90px;
 }
-footer nav{
-    text-align: center;
+footer{
+    background-color: rgb(31, 26, 100);
     justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+footer li{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+footer h5{
+    color: honeydew;
 }
